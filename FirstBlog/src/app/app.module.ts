@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactoComponent } from './rutas/contacto/contacto.component';
 import { NosotrosComponent } from './rutas/nosotros/nosotros.component';
 import { Error404Component } from './rutas/error404/error404.component';
+import { HomeComponent } from './rutas/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Error404Component } from './rutas/error404/error404.component';
     FooterComponent,
     ContactoComponent,
     NosotrosComponent,
-    Error404Component
+    Error404Component,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

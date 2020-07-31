@@ -6,13 +6,13 @@
       <a class="navbar-brand text-white" href="#">LOGO</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link text-white" [routerLink]="['']">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Link</a>
+          <a class="nav-link text-white" [routerLink]="['/contacto']">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link text-white" [routerLink]="['/nosotros']">Nosotros</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
