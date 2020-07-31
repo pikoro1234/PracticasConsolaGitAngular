@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactoComponent } from './rutas/contacto/contacto.component';
 import { NosotrosComponent } from './rutas/nosotros/nosotros.component';
-import { Erro404Component } from './rutas/erro404/erro404.component';
 import { Error404Component } from './rutas/error404/error404.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { Error404Component } from './rutas/error404/error404.component';
     FooterComponent,
     ContactoComponent,
     NosotrosComponent,
-    Erro404Component,
     Error404Component
   ],
   imports: [
